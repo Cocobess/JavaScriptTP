@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device=width, initial-scale=1">
+		<title> Projet de Javascript </title> 
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<link rel="icon" type="image/png" href="R.jpg">
+	</head>
+
+	<body>
+		
+		<nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
+			<div class="navbar-brand conterner-fluid">
+				<a class=" nav-link active " href="index.html">
+					<img src="R.jpg" height="75">
+				   </a>
+		  </div>
+  	
+       	</nav>
+
+		<div class="containeur marge centre">
+            <h2 class="font-weight-bold">Choisissez un renard aléatoire</h2>
+		</div>
+
+        <div id="container" class="containeur marge centre"> <!-- Bouton avec l'identifiant bouton qui permet d'afficher une image depuis l'API a chaque clique sur celui-ci-->
+            <button id="bouton" type="button" class="btn btn-warning">Afficher un renard</button>
+		</div>
+
+		<div class="containeur art"> <!--Image dans laquelle on va ajouter la source d'une image qui est obtenue depuis l'API-->
+			<img id="image" src="" style="max-height: 500px; max-width: 500px;" class="mt-2">
+		</div>
+		<footer class="container">
+			<div class="centre">
+						 </div>
+							 <div class="centre contact art">
+								© 2022 Copyright: BESSON Corentin
+									 </div>
+		
+			</footer>	
+
+
+		<script  src="main.js"></script>
+    </body>
+</html>
