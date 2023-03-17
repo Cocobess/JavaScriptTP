@@ -39,3 +39,8 @@ récupérées depuis l'API en un objet JavaScript.
 - Trouver une bonne API.
 - Faire afficher l'image.
 - Rendre le site agréable à regarder.
+
+## _Sources_ :
+ - Pour l'API : https://randomfox.ca/floof/ .
+ - JavaScript : https://developer.mozilla.org/fr/docs/Web/JavaScript .
+ - Bootstrap : https://getbootstrap.com/docs/5.3/getting-started/introduction/ .
